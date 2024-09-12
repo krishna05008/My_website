@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.suse-font2{
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400 ;
+  font-style: normal;
+}
+
+.oswald-font3 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: 2px;
+  font-weight: 400;
+  font-style: bold ;
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+#my-intro{
+    font-size: 32px;
+    font-family: "Bebas Neue", sans-serif;
+    color: rgb(246, 246, 246);
+    margin-left: 260px;
+    margin-top: 50px;
+    
+    
+}
+#my-name {
+    font-size: 32px;
+    font-family: "Bebas Neue", sans-serif;
+    color: rgb(242, 240, 244);
+    margin-left: 360px;
+    position: relative;
+    display: inline-block;
+
+}
+
+#my-name::after {
+    content: '|';
+    position: absolute;
+    right: 0;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+body{
+   background-color: #2c2929;
+    background-position: center;
+}
+#navbar_1{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+#navbar_list {
+  display: block;
+  width: 60px;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+
+}
+#navbar_1{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+#navbar_list:hover{
+  background-color: #555;
+  width: 100%;
+  color: white;
+}
+#div_intro{
+  padding: 0;
+  margin-top: 0;
+
+}
+#div_intro {
+  position: relative;
+  top: -0px; /* Adjust this value to move the content upwards */
+}
+
+#my-intro {
+  position: relative;
+  top: -20px; /* Adjust to move text specifically */
+}
+
+
+
+
